@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA16A8D2007EB4800644FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA16A8C2007EB4800644FC6 /* AppDelegate.swift */; };
+		2BA16A8F2007EB4800644FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA16A8E2007EB4800644FC6 /* ViewController.swift */; };
+		2BA16A922007EB4800644FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA16A902007EB4800644FC6 /* Main.storyboard */; };
+		2BA16A952007EB4800644FC6 /* aws_auth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BA16A932007EB4800644FC6 /* aws_auth.xcdatamodeld */; };
+		2BA16A972007EB4800644FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA16A962007EB4800644FC6 /* Assets.xcassets */; };
+		2BA16A9A2007EB4800644FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA16A982007EB4800644FC6 /* LaunchScreen.storyboard */; };
+		2BA16AA52007EB4800644FC6 /* aws_authTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA16AA42007EB4800644FC6 /* aws_authTests.swift */; };
+		2BA16AB02007EB4800644FC6 /* aws_authUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA16AAF2007EB4800644FC6 /* aws_authUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BA16AA12007EB4800644FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA16A812007EB4800644FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA16A882007EB4800644FC6;
+			remoteInfo = "aws-auth";
+		};
+		2BA16AAC2007EB4800644FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA16A812007EB4800644FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA16A882007EB4800644FC6;
+			remoteInfo = "aws-auth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BA16A892007EB4800644FC6 /* aws-auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aws-auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA16A8C2007EB4800644FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BA16A8E2007EB4800644FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BA16A912007EB4800644FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA16A942007EB4800644FC6 /* aws_auth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aws_auth.xcdatamodel; sourceTree = "<group>"; };
+		2BA16A962007EB4800644FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BA16A992007EB4800644FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BA16A9B2007EB4800644FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA16AA02007EB4800644FC6 /* aws-authTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-authTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA16AA42007EB4800644FC6 /* aws_authTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_authTests.swift; sourceTree = "<group>"; };
+		2BA16AA62007EB4800644FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA16AAB2007EB4800644FC6 /* aws-authUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-authUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA16AAF2007EB4800644FC6 /* aws_authUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_authUITests.swift; sourceTree = "<group>"; };
+		2BA16AB12007EB4800644FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA16A862007EB4800644FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA16A9D2007EB4800644FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA16AA82007EB4800644FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA16A802007EB4800644FC6 = {
+			isa = PBXGroup;
+			children = (
+				2BA16A8B2007EB4800644FC6 /* aws-auth */,
+				2BA16AA32007EB4800644FC6 /* aws-authTests */,
+				2BA16AAE2007EB4800644FC6 /* aws-authUITests */,
+				2BA16A8A2007EB4800644FC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA16A8A2007EB4800644FC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA16A892007EB4800644FC6 /* aws-auth.app */,
+				2BA16AA02007EB4800644FC6 /* aws-authTests.xctest */,
+				2BA16AAB2007EB4800644FC6 /* aws-authUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA16A8B2007EB4800644FC6 /* aws-auth */ = {
+			isa = PBXGroup;
+			children = (
+				2BA16A8C2007EB4800644FC6 /* AppDelegate.swift */,
+				2BA16A8E2007EB4800644FC6 /* ViewController.swift */,
+				2BA16A902007EB4800644FC6 /* Main.storyboard */,
+				2BA16A962007EB4800644FC6 /* Assets.xcassets */,
+				2BA16A982007EB4800644FC6 /* LaunchScreen.storyboard */,
+				2BA16A9B2007EB4800644FC6 /* Info.plist */,
+				2BA16A932007EB4800644FC6 /* aws_auth.xcdatamodeld */,
+			);
+			path = "aws-auth";
+			sourceTree = "<group>";
+		};
+		2BA16AA32007EB4800644FC6 /* aws-authTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA16AA42007EB4800644FC6 /* aws_authTests.swift */,
+				2BA16AA62007EB4800644FC6 /* Info.plist */,
+			);
+			path = "aws-authTests";
+			sourceTree = "<group>";
+		};
+		2BA16AAE2007EB4800644FC6 /* aws-authUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA16AAF2007EB4800644FC6 /* aws_authUITests.swift */,
+				2BA16AB12007EB4800644FC6 /* Info.plist */,
+			);
+			path = "aws-authUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA16A882007EB4800644FC6 /* aws-auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA16AB42007EB4800644FC6 /* Build configuration list for PBXNativeTarget "aws-auth" */;
+			buildPhases = (
+				2BA16A852007EB4800644FC6 /* Sources */,
+				2BA16A862007EB4800644FC6 /* Frameworks */,
+				2BA16A872007EB4800644FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aws-auth";
+			productName = "aws-auth";
+			productReference = 2BA16A892007EB4800644FC6 /* aws-auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BA16A9F2007EB4800644FC6 /* aws-authTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA16AB72007EB4800644FC6 /* Build configuration list for PBXNativeTarget "aws-authTests" */;
+			buildPhases = (
+				2BA16A9C2007EB4800644FC6 /* Sources */,
+				2BA16A9D2007EB4800644FC6 /* Frameworks */,
+				2BA16A9E2007EB4800644FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA16AA22007EB4800644FC6 /* PBXTargetDependency */,
+			);
+			name = "aws-authTests";
+			productName = "aws-authTests";
+			productReference = 2BA16AA02007EB4800644FC6 /* aws-authTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BA16AAA2007EB4800644FC6 /* aws-authUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA16ABA2007EB4800644FC6 /* Build configuration list for PBXNativeTarget "aws-authUITests" */;
+			buildPhases = (
+				2BA16AA72007EB4800644FC6 /* Sources */,
+				2BA16AA82007EB4800644FC6 /* Frameworks */,
+				2BA16AA92007EB4800644FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA16AAD2007EB4800644FC6 /* PBXTargetDependency */,
+			);
+			name = "aws-authUITests";
+			productName = "aws-authUITests";
+			productReference = 2BA16AAB2007EB4800644FC6 /* aws-authUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA16A812007EB4800644FC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Arron Linton";
+				TargetAttributes = {
+					2BA16A882007EB4800644FC6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2BA16A9F2007EB4800644FC6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BA16A882007EB4800644FC6;
+					};
+					2BA16AAA2007EB4800644FC6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BA16A882007EB4800644FC6;
+					};
+				};
+			};
+			buildConfigurationList = 2BA16A842007EB4800644FC6 /* Build configuration list for PBXProject "aws-auth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BA16A802007EB4800644FC6;
+			productRefGroup = 2BA16A8A2007EB4800644FC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA16A882007EB4800644FC6 /* aws-auth */,
+				2BA16A9F2007EB4800644FC6 /* aws-authTests */,
+				2BA16AAA2007EB4800644FC6 /* aws-authUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA16A872007EB4800644FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA16A9A2007EB4800644FC6 /* LaunchScreen.storyboard in Resources */,
+				2BA16A972007EB4800644FC6 /* Assets.xcassets in Resources */,
+				2BA16A922007EB4800644FC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA16A9E2007EB4800644FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA16AA92007EB4800644FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA16A852007EB4800644FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA16A8F2007EB4800644FC6 /* ViewController.swift in Sources */,
+				2BA16A8D2007EB4800644FC6 /* AppDelegate.swift in Sources */,
+				2BA16A952007EB4800644FC6 /* aws_auth.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA16A9C2007EB4800644FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA16AA52007EB4800644FC6 /* aws_authTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA16AA72007EB4800644FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA16AB02007EB4800644FC6 /* aws_authUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA16AA22007EB4800644FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA16A882007EB4800644FC6 /* aws-auth */;
+			targetProxy = 2BA16AA12007EB4800644FC6 /* PBXContainerItemProxy */;
+		};
+		2BA16AAD2007EB4800644FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA16A882007EB4800644FC6 /* aws-auth */;
+			targetProxy = 2BA16AAC2007EB4800644FC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BA16A902007EB4800644FC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA16A912007EB4800644FC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA16A982007EB4800644FC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA16A992007EB4800644FC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA16AB22007EB4800644FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BA16AB32007EB4800644FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA16AB52007EB4800644FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTTZJ4YJNY;
+				INFOPLIST_FILE = "aws-auth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "playground.aws-auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BA16AB62007EB4800644FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTTZJ4YJNY;
+				INFOPLIST_FILE = "aws-auth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "playground.aws-auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BA16AB82007EB4800644FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTTZJ4YJNY;
+				INFOPLIST_FILE = "aws-authTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "playground.aws-authTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aws-auth.app/aws-auth";
+			};
+			name = Debug;
+		};
+		2BA16AB92007EB4800644FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTTZJ4YJNY;
+				INFOPLIST_FILE = "aws-authTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "playground.aws-authTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aws-auth.app/aws-auth";
+			};
+			name = Release;
+		};
+		2BA16ABB2007EB4800644FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTTZJ4YJNY;
+				INFOPLIST_FILE = "aws-authUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "playground.aws-authUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aws-auth";
+			};
+			name = Debug;
+		};
+		2BA16ABC2007EB4800644FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTTZJ4YJNY;
+				INFOPLIST_FILE = "aws-authUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "playground.aws-authUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aws-auth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA16A842007EB4800644FC6 /* Build configuration list for PBXProject "aws-auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA16AB22007EB4800644FC6 /* Debug */,
+				2BA16AB32007EB4800644FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA16AB42007EB4800644FC6 /* Build configuration list for PBXNativeTarget "aws-auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA16AB52007EB4800644FC6 /* Debug */,
+				2BA16AB62007EB4800644FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA16AB72007EB4800644FC6 /* Build configuration list for PBXNativeTarget "aws-authTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA16AB82007EB4800644FC6 /* Debug */,
+				2BA16AB92007EB4800644FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA16ABA2007EB4800644FC6 /* Build configuration list for PBXNativeTarget "aws-authUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA16ABB2007EB4800644FC6 /* Debug */,
+				2BA16ABC2007EB4800644FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BA16A932007EB4800644FC6 /* aws_auth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BA16A942007EB4800644FC6 /* aws_auth.xcdatamodel */,
+			);
+			currentVersion = 2BA16A942007EB4800644FC6 /* aws_auth.xcdatamodel */;
+			path = aws_auth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BA16A812007EB4800644FC6 /* Project object */;
+}
